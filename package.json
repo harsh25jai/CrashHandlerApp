@@ -9,6 +9,14 @@
     "start": "react-native start",
     "test": "jest"
   },
+  "codegenConfig": {
+    "name": "NativeCrashHandler",
+    "type": "modules",
+    "jsSrcsDir": "specs",
+    "android": {
+      "javaPackageName": "com.nativecrashhandler"
+    }
+  },
   "dependencies": {
     "react": "19.2.0",
     "react-native": "0.83.2",
