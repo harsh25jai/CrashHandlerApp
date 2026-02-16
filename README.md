@@ -1,3 +1,23 @@
+# Visual Crash Reporting in React Native
+
+This project is a reference implementation of a **Visual Crash Reporting** system for React Native apps. It demonstrates how to capture and store screenshots automatically when a crash occurs (JS or Native), providing visual context for debugging.
+
+## 📖 Detailed Guide
+
+To understand the architecture and implementation of this system in detail, please refer to the official blog post on Medium:
+
+👉 **[Read the Full Implementation Guide on Medium](https://medium.com/@harsh25jai/react-native-capture-screenshots-on-crash-android-9b4e9e5ff5ee)**
+
+---
+
+## 🛠 Features Demonstrated
+- Intercepting JS exceptions using `ErrorUtils`.
+- Capturing high-quality screenshots on Android using the `PixelCopy` API.
+- Native TurboModule integration for crash reporting.
+- Local storage management for crash evidence.
+
+---
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
