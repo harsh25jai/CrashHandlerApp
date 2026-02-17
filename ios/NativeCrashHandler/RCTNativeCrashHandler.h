@@ -6,10 +6,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <NativeCrashHandler/NativeCrashHandler.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface RCTNativeCrashHandler : NSObject
+@interface RCTNativeCrashHandler : NSObject <NativeCrashHandlerSpec>
 
 @end
 
