@@ -15,6 +15,11 @@
     "jsSrcsDir": "specs",
     "android": {
       "javaPackageName": "com.nativecrashhandler"
+    },
+    "ios": {
+      "modulesProvider": {
+        "NativeCrashHandler": "RCTNativeCrashHandler"
+      }
     }
   },
   "dependencies": {
