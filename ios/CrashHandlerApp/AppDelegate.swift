@@ -28,6 +28,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       in: window,
       launchOptions: launchOptions
     )
+    
+    NSLog("AppDelegate: Initializing CrashScreenshotService")
+    CrashScreenshotService.shared.initialize()
+    NSLog("CrashHandler: Service initialized")
 
     return true
   }
